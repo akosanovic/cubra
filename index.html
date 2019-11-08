@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="responsive.css">
     <link rel="styleshhet" href="font/style.css">
     <title>Escape</title>
 </head>
@@ -15,19 +14,19 @@
 <body>
     <header class="jumbotron jumbotron-header" id="home">
         <div class="container">
-            <nav class="navbar navbar-expand-md sticky-top">
+            <nav class="navbar navbar-expand-md navbar-dark">
                 <a href="#home" class="navbar-brend"><img src="photos/paper-plane.png" alt="paper-plane"> Escape</a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navMenu">
+                <div class="collapse navbar-collapse ml-auto" id="navMenu">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link a-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link a-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link a-link" href="#clients">Clients</a></li>
+                        <li class="nav-item"><a class="nav-link a-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link a-link" href="#footer">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -43,43 +42,44 @@
     </header>
     <section class="services" id="services">
         <div class="container">
-            <div class="row first-part">
+            <div class="row first-part d-flex">
 
-                <div class="col-lg-8">
+                <div class="col-lg-8 order-lg-1 order-sm-2 order-2">
                     <h1 class="services-h1">Web <b>Development</b></h1>
                     <p class="services-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     <p class="services-description">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  order-lg-2 order-sm-1 order-1">
                     <img src="photos/Flow Tree-Icon.png" alt="Flow Tree-Icon">
                 </div>
             </div>
-
-
-            <div class="row second-part">
-                <div class="col-lg-4">
-                    <img src="photos/Users-Icon.png" alt="Users-Icon">
-                </div>
-                <div class="col-lg-8">
-                    <h1 class="services-h1">Identity <b>Brending</b></h1>
-                    <p class="services-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                    <p class="services-description">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.</p>
+        </div>
+        <div style="background-color: #fafafa">
+            <div class="container">
+                <div class="row second-part">
+                    <div class="col-lg-4">
+                        <img src="photos/Users-Icon.png" alt="Users-Icon">
+                    </div>
+                    <div class="col-lg-8">
+                        <h1 class="services-h1">Identity <b>Brending</b></h1>
+                        <p class="services-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        <p class="services-description">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.</p>
+                    </div>
                 </div>
             </div>
-
-
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="card border-0 card-services">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <img src="photos/Person-Icon.png" class="img-icon" alt="">
+                                <img src="photos/Person-Icon.png" class="img-icon" alt="Person-Icon">
                             </div>
                             <div class="col">
                                 <div class="card-block">
-                                    <h4 class="card-title">Branding &
-                                            Identity</h4>
-                                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    <h4 class="card-title">Branding & Identity</h4>
+                                    <p class="card-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                                 </div>
                             </div>
                         </div>
@@ -87,12 +87,12 @@
                     <div class="card border-0 card-services">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <img src="photos/iPad-Icon.png" class="img-icon" alt="">
+                                <img src="photos/iPad-Icon.png" class="img-icon" alt="iPad-Icon">
                             </div>
                             <div class="col">
                                 <div class="card-block">
                                     <h4 class="card-title">Mobile App Development</h4>
-                                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    <p class="card-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                                 </div>
                             </div>
                         </div>
@@ -100,12 +100,12 @@
                     <div class="card border-0 card-services">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <img src="photos/Star-Icon.png" class="img-icon" alt="">
+                                <img src="photos/Star-Icon.png" class="img-icon" alt="Star-Icon">
                             </div>
                             <div class="col">
                                 <div class="card-block">
                                     <h4 class="card-title">UI/UX</h4>
-                                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    <p class="card-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                                 </div>
                             </div>
                         </div>
@@ -115,12 +115,12 @@
                     <div class="card border-0 card-services">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <img src="photos/Browser-Icon.png" class="img-icon" alt="">
+                                <img src="photos/Browser-Icon.png" class="img-icon" alt="Browser-Icon">
                             </div>
                             <div class="col">
                                 <div class="card-block">
                                     <h4 class="card-title">Web & Graphic Design</h4>
-                                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    <p class="card-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                                 </div>
                             </div>
                         </div>
@@ -128,12 +128,12 @@
                     <div class="card border-0 card-services">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <img src="photos/Video-Icon.png" class="img-icon" alt="">
+                                <img src="photos/Video-Icon.png" class="img-icon" alt="Video-Icon">
                             </div>
                             <div class="col">
                                 <div class="card-block">
                                     <h4 class="card-title">Animations</h4>
-                                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    <p class="card-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                                 </div>
                             </div>
                         </div>
@@ -141,109 +141,168 @@
                     <div class="card border-0 card-services">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <img src="photos/Camera.png" class="img-icon" alt="">
+                                <img src="photos/Camera.png" class="img-icon" alt="Camera.png">
                             </div>
                             <div class="col">
                                 <div class="card-block">
                                     <h4 class="card-title">Photography</h4>
-                                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                                    <p class="card-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-    </section>
+     </section>      
     <section class="clients" id="clients">
         <div class="container">
             <h1 class="clients-h1">Awesome <b>Clients</b></h1>
             <p class="clients-sub">See what nice things our clients said about us.</p>
-            <div class="row">
-                <div class="col-auto">
-                    <div class="round-circle">
-                        <img src="" alt="" class="">
+        </div>
+        <div class="container">
+            <div class="card border-0 clients-card-first">
+                <div class="row vertical-align">
+                    <div class="col-4">
+                        <div class="rounded-circle overflow-hidden mx-auto clients-circle-image ">
+                            <img class="w-100 h-100" src="http://hazelstudio.ca/wp-content/uploads/2017/06/Alex-Mocan-Headshots-R-1024x683.jpg" alt="Client">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-block">
+                            <div class="bubble-first bubble p bubble small" id="typeWriterFirst">
+                              
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="card border-0 clients-card-second">
+                <div class="row vertical-align">
+                    <div class="col-8">
+                        <div class="card-block">
+                            <div class="bubble-second bubble p bubble small" id="typeWriterSecond">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="rounded-circle overflow-hidden mx-auto clients-circle-image">
+                            <img class="w-100 h-100" src="http://www.fusionphotopro.com/wp-content/uploads/2016/06/heasdshot-contemporary-mature-man-blues-705x524.jpg" alt="Client">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-    </section>
-    <section class="team">
-        <div class="container">
-            <h1 class="team-h1">Amazing <b>Team</b></h1>
-            <p class="team-text">These wonderful people make work enjoyable.
-            </p>
-            <div class="row">
-                <div class="col-sm-4 col-lg-4 card-wrapper">
-                    <div class="card border-2">
-                        <div class=" rounded-circle
-                                    overflow-hidden mx-auto
-                                    custom-circle-image">
-                            <img class="w-100 h-100" src="https://i.pinimg.com/originals/25/48/31/25483183a26a96adcc2b5a4002eda6ca.jpg" alt="Card image cap">
-                        </div>
-                        <div class="card-body text-center mt-4">
-                            <h3 class="text-uppercase card-title">Our
-                                        Facilities</h3>
-                            <p class="card-text">A short caption detailing an aspect of the brand which is worth mentioning.
-                            </p>
+        <div style="background-color: white;">
+            <div class="container">
+                <div class="row vertical-align logos">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="logo-img">
+                            <a href="#"><img src="photos/Envato.png" alt="Envato"></a>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-sm-4 col-lg-4  card-wrapper">
-                    <div class="card border-0">
-                        <div class="position-relative rounded-circle
-                                    overflow-hidden mx-auto
-                                    custom-circle-image">
-                            <img class="w-80 h-80" src="https://source.unsplash.com/1230x802" alt="Card image cap">
-                        </div>
-                        <div class="card-body text-center mt-4">
-                            <h3 class="text-uppercase card-title">Our
-                                        Research</h3>
-                            <p class="card-text">A short caption detailing an aspect of the brand which is worth mentioning.
-                            </p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="logo-img">
+                            <a href="#"><img src="photos/WordPress.png" alt="WordPress"></a>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-sm-4 col-lg-4 card-wrapper">
-                    <div class="card border-0">
-                        <div class="position-relative rounded-circle
-                                    overflow-hidden mx-auto
-                                    custom-circle-image">
-                            <img class="w-100 h-100" src="https://source.unsplash.com/1230x794" alt="Card image cap">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="logo-img">
+                            <a href="#"><img src="photos/Tuts+.png" alt="Tuts+"></a>
                         </div>
-                        <div class="card-body text-center mt-4">
-                            <h3 class="text-uppercase card-title">Our
-                                        Expertise</h3>
-                            <p class="card-text">A short caption detailing an aspect of the brand which is worth mentioning.
-                            </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="logo-img">
+                            <a href="#"><img src="photos/Microlancer copy.png" alt="Microlancer"></a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="team" id="team">
+        <div class="container">
+            <h1 class="team-h1">Amazing <b>Team</b></h1>
+            <p class="team-text">These wonderful people make work enjoyable.</p>
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="https://media.istockphoto.com/photos/blondy-afro-hair-woman-picture-id506611550?k=6&m=506611550&s=612x612&w=0&h=51rmsDzCc_KCvk07Nm1FYV5GJILonPbFO5B6CcD0bv4=" alt="team-card-img">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h5 class="team-card-title">Kimberly Thompson</h5>
+                            <p class="team-card-text">Marketer</p>
+                            <a href="#"><img src="photos/Twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="photos/Facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="photos/Pinterest.png" alt="Pinterest"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="https://media.istockphoto.com/photos/portrait-concept-picture-id1016761216?k=6&m=1016761216&s=612x612&w=0&h=j-DyZTSqmnhoHKsJdGmiMPnungpHiq9UTrvx4UylMQI=" alt="team-card-img">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h5 class="team-card-title">Rico Massimo</h5>
+                            <p class="team-card-text">Coder</p>
+                            <div style="display: inline;">
+                                <a href="#"><img src="photos/Twitter.png" alt="Twitter"></a>
+                                <a href="#"><img src="photos/Facebook.png" alt="Facebook"></a>
+                                <a href="#"><img src="photos/Google+.png" alt="Google+"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="https://i.pinimg.com/originals/30/a5/70/30a570200c59b5a3cc550d2f7d6c891d.png" alt="team-card-img">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h5 class="team-card-title">Uku Mason</h5>
+                            <p class="team-card-text">Graphic Designer</p>
+                            <a href="#"><img src="photos/Facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="photos/Pinterest.png" alt="Pinterest"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="team-description">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
     </section>
     <footer class="footer" id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <h1 class="footer-h1">Say <b>Hello</b></h1>
                     <p class="footer-sub">Don’t be shy, drop us an email and say hello! We are a really nice bunch of people :)</p>
                     <div class="row">
-                        <div class="col-lg-6 col-sm-12 col-md-12">
-                            <i class="fas fa-mobile-alt fa-2x" style="color: white">&nbsp;	(416) 555-0000</i>
-                            <i class="fab fa-twitter">@escape</i>
-                            <i class="fab fa-google-plus-g">plus.com/escape</i>
+                        <div class="col-lg-6 col-sm-6 col-6" style="margin-top: 2vw;">
+                            <a href="#" class="link-text">
+                                <i class="fas fa-mobile-alt fa-2x" style="color: white;"></i> (416) 555-0000
+                            </a>
+                            <a href="#" class="link-text">
+                                <i class="fab fa-twitter fa-2x" style="color: white;"></i> twitter@escape
+                            </a>
+                            <a href="#" class="link-text">
+                                <i class="fab fa-google-plus-g fa-2x" style="color: white;"></i> plus.com/escape
+                            </a>
                         </div>
-                        <div class="col-lg-6 col-sm-12 col-md-12">
-                            <i class="fas fa-envelope">heloo@escape.com</i>
-                            <i class="fab fa-facebook-f">facebook.com/escape</i>
-                            <i class="fab fa-pinterest-p">pinterest.com/escape</i>
+                        <div class="col-lg-6 col-sm-6  col-6" style="margin-top: 2vw;">
+                            <a href="#" class="link-text">
+                                <i class="fas fa-envelope fa-2x" style="color: white;"></i> heloo@escape.com
+                            </a>
+                            <a href="#" class="link-text">
+                                <i class="fab fa-facebook-f fa-2x" style="color: white;"></i> facebook.com/escape
+                            </a>
+                            <a href="#" class="link-text">
+                                <i class="fab fa-pinterest-p fa-2x" style="color: white;"></i> pinterest.com/escape
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 ml-auto">
+                <div class="col-lg-6 col-md-12 col-sm-12 ml-auto">
                     <form class="footer-form">
                         <div class="form-group">
                             <label for="exampleInputName"></label>
@@ -266,6 +325,8 @@
         </div>
     </footer>
 
+
+    <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

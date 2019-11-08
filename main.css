@@ -8,14 +8,14 @@ html, body {
     overflow: auto;
     font-family: 'Josefin Sans', sans-serif;
   }
-  
+
 .jumbotron-header {
     background: url("photos/Image.png");
     background-size: cover;
     height: calc(100vh);
     border-radius: 0;
   }
-  
+
 
 .navbar-brend {
     font-size: 25px;
@@ -31,8 +31,8 @@ html, body {
     color: white;
   }
 
-.nav-link {
-    color: white;
+.a-link {
+    color: white !important;
     font-size: 18px;
     line-height: 2.278;
   }
@@ -40,15 +40,18 @@ html, body {
 .nav-link:hover{
     color: white;
   }
-  
-  
+
+.navbar-toggler-icon {
+  cursor: pointer;
+}
+
 .header-h3 {
     color: white;
     text-align: center;
     margin-top: 13vw;
     font-size: 32px;
   }
-  
+
 .header-h1 {
     color: white;
     text-align: center;
@@ -57,7 +60,7 @@ html, body {
     font-size: 66px;
     font-weight: 600;
   }
-  
+
 .button {
     color: white;
     border: 2px solid white;
@@ -67,7 +70,7 @@ html, body {
     font-size: 23px;
     text-decoration: none !important;
   }
-  
+
 .button:hover {
     color: black;
     background-color: white;
@@ -83,7 +86,7 @@ html, body {
     color: rgb(34, 34, 34);
     line-height: 1.25;
     text-align: left;
-   
+
 }
 
 .services-description {
@@ -91,7 +94,7 @@ html, body {
     color: rgb(119, 119, 119);
     line-height: 1.333;
     text-align: left;
-    width: 555px;
+    max-width: 555px;
 
 }
 
@@ -100,12 +103,15 @@ html, body {
     margin-bottom: 8vw;
     margin-left: 3vw;
     margin-right: 3vw;
+
 }
 
 .second-part {
     margin-bottom: 8vw;
     margin-left: 3vw;
     margin-right: 3vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 .card-services {
@@ -115,7 +121,13 @@ html, body {
 
 .img-icon {
    padding-right: 1vw;
-    
+
+}
+
+.img-block {
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .card-title {
@@ -124,15 +136,16 @@ html, body {
     line-height: 1.2;
 }
 
-.card p {
+.card-text {
     font-size: 18px;
     color: rgb(119, 119, 119);
     line-height: 1;
+    padding-bottom: 1.5vw;
 }
 
 .clients {
     background-color: #fafafa;
-    width: 100%; 
+    width: 100%;
 }
 
 .clients-h1 {
@@ -150,73 +163,185 @@ html, body {
     line-height: 1.2;
     text-align: center;
 
-} 
+}
+
+.clients-card-fist {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.clients-card-second{
+  margin-top: 4vw;
+  padding-bottom: 6vw;
+}
+
+.clients-circle-image {
+  width: 13vw;
+  height: 13vw;
+}
+
+.clients-circle-image img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.bubble p{
+  color: rgb(119, 119, 119);
+  font-size: 22px;
+}
+
+.bubble small {
+  color: #7690c5;
+  font-size: 16px;
+}
+
+.bubble-first{
+  margin-right: 3vw;
+  background-color: #F2F2F2;
+  box-shadow: 0 0 6px #B2B2B2;
+  display: block;
+  padding: 30px 18px;
+  position: relative;
+  text-align: center;
+}
+
+.bubble-first:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 15px solid #F2F2F2;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left:-15px;
+}
+
+.bubble-second{
+  margin-left: 3vw;
+  box-shadow: 0 0 6px #B2B2B2;
+  background-color: #F2F2F2;
+  display: block;
+  padding: 30px 18px;
+  position: relative;
+  text-align: center;
+}
+
+.bubble-second:after{
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid #F2F2F2;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  right: -23px;
+  align-content: center;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.logos {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  text-align: center;
+}
+
+.logo-img{
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+
+}
+
+.logo-img img:hover {
+    position: relative;
+    transform: scale(1.5);
+    z-index: 1000;
+}
 
 .team {
     background-color: black;
     width: 100%;
   }
-  
+
 .team-h1 {
     color: white;
     text-align: center;
-    padding-top: 60px;
-    line-height: 1.2;
+    font-size: 60px;
     padding-top: 5vw;
   }
-  
+
 .team-text {
     font-size: 22px;
     color: rgb(119, 119, 119);
     text-align: center;
     padding-bottom: 5vw;
   }
-  
-.card-wraper {
-    margin: 5% 0;
-  }
-  
+
 .card {
     background-color: transparent;
   }
-  
-  .custom-circle-image {
+
+.custom-circle-image {
     width: 15vw;
     height: 15vw;
-    border: 5px solid white;
+    border: 7px solid white;
   }
-  
-  .custom-circle-image img {
+
+.custom-circle-image img {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  
-  .card-title {
-    letter-spacing: 1.1px;
-  }
-  
-  .card-text {
-    font-size: 22px;
-    line-height: initial;
+
+.team-card-title {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
   }
 
+.team-card-text {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 300;
+}
 
+.team-card-icons {
+  text-align: center;
+}
 
-  .footer {
+.team-description {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-top: 3vw;
+  padding-bottom: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+
+}
+
+.footer {
       background-color: #7690c5;
       width: 100%;
   }
 
-  .footer-h1 {
+.footer-h1 {
     font-size: 60px;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: left;
     padding-top: 5vw;
-    
+
   }
 
-  .footer-sub {
+.footer-sub {
     font-size: 18px;
     color: rgb(255, 255, 255);
     line-height: 1.2;
@@ -224,11 +349,29 @@ html, body {
     font-weight: 300;
   }
 
-  .icon-text {
+.icon-text {
     font-size: 18px;
     text-align: left;
     color: white;
   }
+
+.link-text {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  line-height: 3;
+  display: block;
+  margin-bottom: 1vw;
+  font-weight: 300;
+  white-space: normal;
+
+}
+
+.link-text:hover{
+  text-decoration: none;
+  color: white;
+}
 
   .footer-form {
       padding-top: 5vw;
@@ -239,11 +382,100 @@ html, body {
     color: rgb(255, 255, 255);
     padding-top: 1vw;
     padding-bottom: 2vw;
-}
+    margin-bottom: 0;
+    font-weight: 300;
+ }
 
-  hr {
+hr {
       width: 100%;
       background-color: 87a0d2;
       height: 0.2px;
 
   }
+
+
+  @media (max-width: 575.98px) {
+
+    .header-h1 {
+      font-size: 40px;
+      padding-bottom: 3vw;
+    }
+
+    .services-h1 {
+
+      font-size: 40px;
+      padding-top:2vw;
+    }
+
+    .clients-h1 {
+      font-size: 40px;
+    }
+
+    .team-h1 {
+     font-size: 40px;
+    }
+
+    .footer-h1 {
+      font-size: 40px;
+    }
+
+   }
+
+
+   @media (max-width: 767.98px) {
+
+    .header-h1 {
+      font-size: 40px;
+      padding-bottom: 3vw;
+    }
+
+    .services-h1 {
+
+      font-size: 45px;
+      padding-top:2vw;
+    }
+
+    .clients-h1 {
+      font-size: 45px;
+    }
+
+    .team-h1 {
+     font-size: 45px;
+    }
+
+    .footer-h1 {
+      font-size: 45px;
+    }
+
+    dl, ol, ul, a{
+      text-align: center !important;
+    }
+
+
+.clients-circle-image {
+  width: 20vw;
+  height: 20vw;
+}
+
+.custom-circle-image {
+  width: 30vw;
+  height: 30vw;
+  border: 7px solid white;
+}
+
+   }
+
+
+@media (max-width: 991.98px) {
+  .clients-circle-image {
+    width: 20vw;
+    height: 20vw;
+  }
+
+.custom-circle-image {
+    width: 30vw;
+    height: 30vw;
+    border: 7px solid white;
+  }
+
+ }
